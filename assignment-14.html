@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>assignment 14</title>
+
+    <style>
+   .sidebar{
+    position: fixed;
+    right: 0;
+   top: 0;
+   bottom: 0;
+    background-color: aqua;
+    height: 2000px;
+   }
+   .complete{
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;                                        
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+   
+   .modal{
+    background-color: white;
+    padding: 15px 150px 15px 20px;
+    border-radius: 15px;
+
+   }
+   .modal-title {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 10px;
+   }
+   .modal-content{
+    font-family: Arial;
+    margin-bottom: 10px
+   }
+    </style>
+  </head>
+  <body>
+   <div class="sidebar">right sidebar</div>
+   <div  class="complete">
+    <div class="modal">
+      <div class="modal-title">
+        Modal Title
+      </div>
+      <div class="modal-content">
+        This is  modal
+      </div>
+      <button>close</button>
+    </div>
+   </div>
+  </body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>assignment 12</title>
+    <style>
+      .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        column-gap: 10px;
+      }
+      .complete{
+        display: grid;
+        row-gap: 10px;
+      }
+     
+      .image{
+        height: 70px;
+        width: 70px;
+        border-radius: 70px;
+        vertical-align: top;
+        object-fit: cover;
+      }
+      .details{
+        width: 230px;
+      }
+      .name{
+        
+        font-weight: bold;
+      }
+      .category,
+      .status{
+        font-size: 14px;
+        font-weight: 300;
+        color: rgb(118, 113, 113);
+      }
+      button{
+        color: white;
+        padding: 4px;
+        background-color: rgb(37, 183, 240);
+        font-weight: bold;
+      }
+      .name,
+      .category,
+      .status{
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="complete">
+    <div class="container">
+         <img class="image" src="photos/1268158.jpg">
+      <div class="details">
+        <p class="name">Lycoris Recoil</p>
+        <p class="category">Anime</p>
+        <p class="status">Popular</p>
+      </div>
+      <div>
+        <button>Watchlist</button>
+      </div>
+    </div>
+    <div class="container">
+      <img class="image" src="photos/tbate.jpg">
+   <div class="details">
+     <p class="name">The Beginnng After The End</p>
+     <p class="category">Manhwa</p>
+     <p class="status">Popular</p>
+   </div>
+   <div>
+     <button>Watchlist</button>
+   </div>
+ </div>
+ <div class="container">
+  <img class="image" src="photos/genshin impact.jpg">
+<div class="details">
+ <p class="name">Genshin Impact</p>
+ <p class="category">Game</p>
+ <p class="status">Popular</p>
+</div>
+<div>
+ <button>Watchlist</button>
+</div>
+</div>
+    </div>
+  </body>
+</html>

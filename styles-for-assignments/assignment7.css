@@ -1,0 +1,23 @@
+p{
+vertical-align: middle;
+}
+.photo{
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+ vertical-align: middle;
+}
+.buttons{
+  padding-right: 60px;
+  background-color: white;
+  border: none;
+
+}
+.tweet{
+  color: white;
+  background-color: rgb(59, 182, 231);
+  border: none;
+  height: 30px;
+  width: 60px;
+  border-radius: 20px;
+}
